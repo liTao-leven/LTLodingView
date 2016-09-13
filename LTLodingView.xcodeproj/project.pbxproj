@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A68FAE9B1D87DA5800A394FE /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = A68FAE991D87DA5800A394FE /* loding.gif */; };
+		A68FAE9C1D87DA5800A394FE /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = A68FAE9A1D87DA5800A394FE /* Untitled.gif */; };
 		A6A6B8B11D86AC6D00325281 /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6A6B8B01D86AC6D00325281 /* loding.gif */; };
 		A6C0AF0C1D798895000F615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF0B1D798895000F615E /* main.m */; };
 		A6C0AF0F1D798895000F615E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF0E1D798895000F615E /* AppDelegate.m */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A68FAE991D87DA5800A394FE /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
+		A68FAE9A1D87DA5800A394FE /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		A6A6B8B01D86AC6D00325281 /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
 		A6C0AF071D798895000F615E /* LTLodingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTLodingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C0AF0B1D798895000F615E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A68FAE981D87DA5800A394FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A68FAE991D87DA5800A394FE /* loding.gif */,
+				A68FAE9A1D87DA5800A394FE /* Untitled.gif */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
 		A6C0AEFE1D798895000F615E = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +135,7 @@
 				A6C0AF161D798895000F615E /* Assets.xcassets */,
 				A6C0AF181D798895000F615E /* LaunchScreen.storyboard */,
 				A6C0AF1B1D798895000F615E /* Info.plist */,
+				A68FAE981D87DA5800A394FE /* Resource */,
 				A6C0AF0A1D798895000F615E /* Supporting Files */,
 			);
 			path = LTLodingView;
@@ -270,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C0AF1A1D798895000F615E /* LaunchScreen.storyboard in Resources */,
+				A68FAE9C1D87DA5800A394FE /* Untitled.gif in Resources */,
 				A6C0AF171D798895000F615E /* Assets.xcassets in Resources */,
 				A6C0AF151D798895000F615E /* Main.storyboard in Resources */,
+				A68FAE9B1D87DA5800A394FE /* loding.gif in Resources */,
 				A6A6B8B11D86AC6D00325281 /* loding.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
