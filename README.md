@@ -1,6 +1,5 @@
----
-title: LTLodingView
-tags: 小书匠,更新
+
+# LTLodingView
 
 快速的为view添加loding效果
 支持默认效果
@@ -18,4 +17,3 @@ tags: 小书匠,更新
 
 ### 使用方法
 将LTLodingView文件夹拖入项目中  在使用的地方#import "UIView+LT_loding.h" 具体参考demo
-
