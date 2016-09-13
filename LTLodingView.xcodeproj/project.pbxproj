@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6A6B8B11D86AC6D00325281 /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6A6B8B01D86AC6D00325281 /* loding.gif */; };
 		A6C0AF0C1D798895000F615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF0B1D798895000F615E /* main.m */; };
 		A6C0AF0F1D798895000F615E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF0E1D798895000F615E /* AppDelegate.m */; };
 		A6C0AF121D798895000F615E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF111D798895000F615E /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		A6C0AF1A1D798895000F615E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C0AF181D798895000F615E /* LaunchScreen.storyboard */; };
 		A6C0AF251D798895000F615E /* LTLodingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF241D798895000F615E /* LTLodingViewTests.m */; };
 		A6C0AF301D798895000F615E /* LTLodingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF2F1D798895000F615E /* LTLodingViewUITests.m */; };
+		A6C0AF4E1D7988E8000F615E /* UIImage+LT_git.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF491D7988E8000F615E /* UIImage+LT_git.m */; };
+		A6C0AF4F1D7988E8000F615E /* UIImageView+LT_loding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF4B1D7988E8000F615E /* UIImageView+LT_loding.m */; };
+		A6C0AF501D7988E8000F615E /* UIView+LT_loding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0AF4D1D7988E8000F615E /* UIView+LT_loding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6A6B8B01D86AC6D00325281 /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
 		A6C0AF071D798895000F615E /* LTLodingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTLodingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C0AF0B1D798895000F615E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6C0AF0D1D798895000F615E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,12 @@
 		A6C0AF2B1D798895000F615E /* LTLodingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTLodingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C0AF2F1D798895000F615E /* LTLodingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTLodingViewUITests.m; sourceTree = "<group>"; };
 		A6C0AF311D798895000F615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C0AF481D7988E8000F615E /* UIImage+LT_git.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LT_git.h"; sourceTree = "<group>"; };
+		A6C0AF491D7988E8000F615E /* UIImage+LT_git.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LT_git.m"; sourceTree = "<group>"; };
+		A6C0AF4A1D7988E8000F615E /* UIImageView+LT_loding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LT_loding.h"; sourceTree = "<group>"; };
+		A6C0AF4B1D7988E8000F615E /* UIImageView+LT_loding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LT_loding.m"; sourceTree = "<group>"; };
+		A6C0AF4C1D7988E8000F615E /* UIView+LT_loding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LT_loding.h"; sourceTree = "<group>"; };
+		A6C0AF4D1D7988E8000F615E /* UIView+LT_loding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LT_loding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +112,13 @@
 		A6C0AF091D798895000F615E /* LTLodingView */ = {
 			isa = PBXGroup;
 			children = (
+				A6C0AF471D7988E8000F615E /* LTLodingView */,
 				A6C0AF0D1D798895000F615E /* AppDelegate.h */,
 				A6C0AF0E1D798895000F615E /* AppDelegate.m */,
 				A6C0AF101D798895000F615E /* ViewController.h */,
 				A6C0AF111D798895000F615E /* ViewController.m */,
 				A6C0AF131D798895000F615E /* Main.storyboard */,
+				A6A6B8B01D86AC6D00325281 /* loding.gif */,
 				A6C0AF161D798895000F615E /* Assets.xcassets */,
 				A6C0AF181D798895000F615E /* LaunchScreen.storyboard */,
 				A6C0AF1B1D798895000F615E /* Info.plist */,
@@ -138,6 +151,19 @@
 				A6C0AF311D798895000F615E /* Info.plist */,
 			);
 			path = LTLodingViewUITests;
+			sourceTree = "<group>";
+		};
+		A6C0AF471D7988E8000F615E /* LTLodingView */ = {
+			isa = PBXGroup;
+			children = (
+				A6C0AF481D7988E8000F615E /* UIImage+LT_git.h */,
+				A6C0AF491D7988E8000F615E /* UIImage+LT_git.m */,
+				A6C0AF4A1D7988E8000F615E /* UIImageView+LT_loding.h */,
+				A6C0AF4B1D7988E8000F615E /* UIImageView+LT_loding.m */,
+				A6C0AF4C1D7988E8000F615E /* UIView+LT_loding.h */,
+				A6C0AF4D1D7988E8000F615E /* UIView+LT_loding.m */,
+			);
+			path = LTLodingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +272,7 @@
 				A6C0AF1A1D798895000F615E /* LaunchScreen.storyboard in Resources */,
 				A6C0AF171D798895000F615E /* Assets.xcassets in Resources */,
 				A6C0AF151D798895000F615E /* Main.storyboard in Resources */,
+				A6A6B8B11D86AC6D00325281 /* loding.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C0AF4F1D7988E8000F615E /* UIImageView+LT_loding.m in Sources */,
 				A6C0AF121D798895000F615E /* ViewController.m in Sources */,
 				A6C0AF0F1D798895000F615E /* AppDelegate.m in Sources */,
+				A6C0AF501D7988E8000F615E /* UIView+LT_loding.m in Sources */,
+				A6C0AF4E1D7988E8000F615E /* UIImage+LT_git.m in Sources */,
 				A6C0AF0C1D798895000F615E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +528,7 @@
 				A6C0AF361D798895000F615E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6C0AF371D798895000F615E /* Build configuration list for PBXNativeTarget "LTLodingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +537,7 @@
 				A6C0AF391D798895000F615E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6C0AF3A1D798895000F615E /* Build configuration list for PBXNativeTarget "LTLodingViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +546,7 @@
 				A6C0AF3C1D798895000F615E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
